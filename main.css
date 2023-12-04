@@ -298,12 +298,18 @@ footer {
   width: 500%;
 }*/
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
   nav,
   article {
     width: 100%;
     height: auto;
   }
+}*/
+@media screen and (max-width: 481){
+  float: left;
+  padding: 0;
+  width: 94%;
+  margin 3%;
 }
 
 /* Main Body CV*/
