@@ -372,7 +372,7 @@ footer {
   padding: 0;
   width: 94%;
   margin: 3%;)
-  #Education, #Jobs, #Extracurricular Activities, #Education1, #Education1, StudentJobs, #Teaching #SummerSchools, #Workshops, #Internships, #Languages, #Programms, #Fun(
+  #Education, #Jobs, #Extracurricular Activities, #Education1, #Education2, StudentJobs, #Teaching #SummerSchools, #Workshops, #Internships, #Languages, #Programs, #Fun(
   float: left;
   padding: 0;
   width: 94%;
@@ -993,14 +993,6 @@ footer {
   justify-content: center;
   width: 500%;
 }*/
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav,
-  article {
-    width: 100%;
-    height: auto;
-  }
-}
 
 /* Main Body CV*/
 .page {
