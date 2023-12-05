@@ -1,6 +1,6 @@
 header {
   /* background: rgb(51, 168, 246); */
-  background: #520188;
+  background: #581845;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
 }
@@ -34,21 +34,21 @@ nav {
   justify-content: center;
   align-items: center;
   border-left: 1px solid white;
-  background: #520188;
+  background: #581845;
 }
 
 .nav-list li.last {
   border-right: 1px solid white;
-  background: #520188;
+  background: #581845;
 }
 
 .nav-list li.lastActive {
   border-right: 1px solid white;
-  background: #c773ff;
+  background: #926b86;
 }
 
 .nav-list li.active {
-  background: #c773ff;
+  background: #926b86;
 }
 
 .nav-list li a {
@@ -72,7 +72,7 @@ nav {
   justify-content: center;
   align-items: center;
   border-left: 1px solid white;
-  /* background: #520188; */
+  /* background: #581845; */
   font-size: small;
   /* padding: 10px; */
 }
@@ -126,7 +126,7 @@ nav {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #520188;
+  background-color: #581845;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -155,7 +155,7 @@ aside {
   float: left;
   padding: 20px;
   width: 25%;
-  background-color: #520188;
+  background-color: #581845;
   height: auto; /* only for demonstration, should be removed */
 }
 
@@ -171,14 +171,14 @@ section::after {
 
 /* Style the footer */
 footer {
-  background-color: #520188;
+  background-color: #581845;
   padding: 10px;
   bottom: 0;
   width: 100%;
   height: 40px;
   text-align: left;
   color: white;
-  border: 3px solid #520188;
+  border: 3px solid #581845;
 }
 
 .flex-container_side {
@@ -192,10 +192,10 @@ footer {
   margin-top: 2%;
   margin-bottom: 2%;
   padding: 20px;
-  background: #520188;
+  background: #581845;
   /*box-sizing: content-box;*/
   flex-shrink: 1;
-  border: #520188 solid;
+  border: #581845 solid;
   min-height: auto;
   color: #ffffff;
 }
@@ -210,10 +210,10 @@ footer {
   margin-top: 0%;
   margin-bottom: 0%;
   padding: 20px;
-  /*background: #520188;*/
+  /*background: #581845;*/
   /*box-sizing: content-box;*/
   flex-shrink: 1;
-  /*border: #520188 solid;*/
+  /*border: #581845 solid;*/
   min-height: auto;
   color: #000000;
 }
@@ -233,8 +233,8 @@ footer {
   box-sizing: content-box;
   min-height: auto;
   color: #000000;
-  /*background: #520188;
-  border: #520188 solid;
+  /*background: #581845;
+  border: #581845 solid;
   color: #ffffff;*/
 }
 .flex-container {
@@ -262,10 +262,10 @@ footer {
   margin-top: 0%;
   margin-bottom: 0%;
   padding: 20px;
-  background: #520188;
+  background: #581845;
   /*box-sizing: content-box;*/
   flex-shrink: 2;
-  border: #520188 solid;
+  border: #581845 solid;
   min-height: auto;
   color: #ffffff;
 }
@@ -286,10 +286,10 @@ footer {
   margin-top: 0%;
   margin-bottom: 0%;
   padding: 20px;
-  background: #520188;
+  background: #581845;
   /*box-sizing: content-box;*/
   flex-shrink: 1;
-  border: #520188 solid;
+  border: #581845 solid;
   min-height: auto;
   color: #ffffff;
 }
@@ -329,7 +329,7 @@ footer {
   width: 100%;
   float: top;
   background: #d2afe9;
-  border: #520188 solid;
+  border: #581845 solid;
 }
 
 .CV-list {
@@ -347,7 +347,7 @@ footer {
   margin-top: 0%;
   margin-bottom: 0%;
   padding: 20px;
-  background: #520188;
+  background: #581845;
   border: #d2afe9 solid;
   color: #ffffff;
   /*flex-shrink: 2;
@@ -367,8 +367,8 @@ footer {
   margin-top: 2%;
   margin-bottom: 2%;
   padding: 20px;
-  background: #520188;
-  border: #520188 solid;
+  background: #581845;
+  border: #581845 solid;
   color: #ffffff;
   flex-shrink: 2;
   /*e.g. 
@@ -387,8 +387,8 @@ footer {
   margin-top: 2%;
   margin-bottom: 2%;
   padding: 20px;
-  background: #520188;
-  border: #520188 solid;
+  background: #581845;
+  border: #581845 solid;
   color: #ffffff;
   flex-shrink: 1;
   /*e.g. 
@@ -405,8 +405,8 @@ footer {
   margin-top: 1%;
   margin-bottom: 1%;
   padding: 20px;
-  background: #520188;
-  border: #520188 solid;
+  background: #581845;
+  border: #581845 solid;
   color: #ffffff;
 }
 
@@ -429,9 +429,9 @@ footer {
   margin-top: 1%;
   margin-bottom: 1%;
   padding: 20px;
-  background: #520188;
+  background: #581845;
   box-sizing: content-box;
-  border: #520188 solid;
+  border: #581845 solid;
   min-height: auto;
   color: #ffffff;
 }
@@ -448,9 +448,9 @@ footer {
   margin-top: 1%;
   margin-bottom: 1%;
   padding: 20px;
-  background: #520188;
+  background: #581845;
   box-sizing: content-box;
-  border: #520188 solid;
+  border: #581845 solid;
   min-height: auto;
   color: #ffffff;
 }
