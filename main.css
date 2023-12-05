@@ -359,32 +359,24 @@ footer {
 }*/
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
-  nav,
-  article {
-    width: 100%;
-    height: auto;
-  }
-  body{
-    padding: 1%;
-    margin: 0;}
-  .flex-container_sideCV1(
-  float: left;
-  padding: 0;
-  width: 94%;
-  margin: 3%;)
-  #Education, #Jobs, #Extracurricular Activities, #Education1, #Education2, StudentJobs, #Teaching #SummerSchools, #Workshops, #Internships, #Languages, #Programs, #Fun(
-  float: left;
-  padding: 0;
-  width: 94%;
-  margin: 3%;)
-  .Education1{float: left;
-  padding: 0;
-  width: 94%;
-  margin: 3%;}
-  .Education2{float: left;
-  padding: 0;
-  width: 94%;
-  margin: 3%;}
+  #Education1 {
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 2%;
+}
+
+#Education2 {
+	width: 100%;
+	height: 200px;
+	margin-right: 0;
+	margin-bottom: 2%;
+}
+
+#Teaching {
+	width: 100%;
+	height: 200px;
+	margin-top: 2%;
+}
 }
   
 
