@@ -286,9 +286,10 @@ footer {
   flex-shrink: 2;
   box-sizing: content-box;
   min-height: auto;
+  background: #581845 solid;
   color: #000000;
   /*background: #520188;*/
-  background: #581845 solid;
+  
 }
 .flex-container {
   display: flex;
