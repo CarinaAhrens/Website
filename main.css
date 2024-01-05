@@ -844,7 +844,6 @@ footer {
   flex-shrink: 1;
   /*border: #520188 solid;*/
   border: #581845; /*neu*/
-
   min-height: auto;
   color: #ffffff;
 }
@@ -924,7 +923,6 @@ footer {
   color: #000000;
   /*background: #520188;*/
   background: #581845 solid;
-  color: #ffffff; /*neu*/
 }
 .flex-container {
   display: flex;
