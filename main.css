@@ -281,6 +281,26 @@ footer {
   background: #581845 solid;
   color: #000000;
 }
+.flex-container_single {
+  display: flex;
+  flex-basis: 2500px;
+  float: middle;
+  /*width: 600px;
+  height: 600px;*/
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 20px;
+  /*background: #520188;*/
+  background: #581845; /*neu*/
+  /*box-sizing: content-box;*/
+  flex-shrink: 2;
+  /*border: #520188 solid;*/
+  border: #cbc3e3; /*neu*/
+  min-height: auto;
+  color: #ffffff;
+}
 
 .flex-container {
   display: flex;
