@@ -266,10 +266,10 @@ footer {
   color: #000000;
 }
 
-.flex-container_sideR {
+.flex-container_sideL {
   display: flex;
   flex-basis: 2500px;
-  float: right;
+  float: left;
   margin-right: 0%;
   margin-left: 0%;
   margin-top: 0%;
@@ -333,6 +333,12 @@ footer {
 }
 
 #Education2 {
+	width: 100%;
+	height: 200px;
+	margin-right: 0;
+	margin-bottom: 2%;
+}
+#Education3 {
 	width: 100%;
 	height: 200px;
 	margin-right: 0;
@@ -411,6 +417,28 @@ footer {
   /*border: #d2afe9 solid;*/
   border: #cbc3e3; /*neu*/
   color: #ffffff;
+  /*flex-shrink: 2;
+   e.g. 
+      1fr 1fr
+      minmax(10px, 1fr) 3fr
+      repeat(5, 1fr)
+      50px auto 100px 1fr
+  */
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding: 20px;
+  /*background: #520188;*/
+  /*background: #581845; /*neu*/
+  /*border: #d2afe9 solid;*/
+  border: #cbc3e3; /*neu*/
+  color: #ffffff;
+  background: #581845;
   /*flex-shrink: 2;
    e.g. 
       1fr 1fr
@@ -846,6 +874,26 @@ footer {
   padding: 20px;
   /*background: #520188;*/
   background: #cbc3e3; /*neu*/
+  /*box-sizing: content-box;*/
+  flex-shrink: 2;
+  /*border: #520188 solid;*/
+  border: #cbc3e3; /*neu*/
+  min-height: auto;
+  color: #ffffff;
+}
+.flex-container_single {
+  display: flex;
+  flex-basis: 2500px;
+  float: middle;
+  /*width: 600px;
+  height: 600px;*/
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 20px;
+  /*background: #520188;*/
+  background: #581845; /*neu*/
   /*box-sizing: content-box;*/
   flex-shrink: 2;
   /*border: #520188 solid;*/
