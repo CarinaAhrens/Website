@@ -1177,17 +1177,6 @@ section::after {
   border: #581845; /*neu*/
   color: #ffffff;
 }
-
-.pic {
-  width: 150px;
-  height: 150px;
-}
-.pic2 {
-  /*width: 500px;
-  height: 750px;*/
-  width: 350px;
-  height: 525px;
-}
 .sec1 {
   float: left;
   width: 600px;
