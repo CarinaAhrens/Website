@@ -515,6 +515,12 @@ footer {
   width: 350px;
   height: 525px;
 }
+.picLogo {
+  /*width: 500px;
+  height: 500px;*/
+  width: 350px;
+  height: 350px;
+}
 
 .icon {
   width: 40px;
