@@ -475,3 +475,23 @@ a:hover {
 .pub-card a:hover {
   opacity: 0.8;
 }
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+
+/* ==========================================
+   Footer
+========================================== */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
