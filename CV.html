@@ -1,161 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Carina Ahrens - CV</title>
-    <link rel="preconnect" href="https://fonts.bunny.net" />
-    <link
-      href="https://fonts.bunny.net/css?family=roboto:400"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
-    />
-    <!--<link rel=“stylesheet” type=“text/css” href=“main.css”>-->
-    <link rel="stylesheet" type="text/css" href="main.css" />
-    <!--<link rel="stylesheet" href="main.css">-->
-  </head>
-  <body>
-    <header>
-      <!--<link rel="icon" href="favicon.jpg" />-->
-      <link rel="icon" href="LogoCA1.png" />
-      <nav>
-        <ul class="nav-list">
-          <!--<li>
-            <a href="index.html">
-              <svg
-                width="56"
-                height="56"
-                viewBox="0 0 56 56"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g clip-path="url(#clip0_342_38)">
-                  <path
-                    d="M23.3334 46.6667V32.6667H32.6667V46.6667H44.3334V28H51.3334L28.0001 7L4.66675 28H11.6667V46.6667H23.3334Z"
-                    fill="white"
-                  />
-                </g>
-                <defs>
-                  <clipPath id="clip0_342_38">
-                    <rect width="56" height="56" fill="white" />
-                  </clipPath>
-                </defs>
-              </svg>
-            </a>
-          </li> -->
-          <!-- <li>
-            <a href="index.html">Home</a>
-          </li> -->
-          <li class="picLogo">
-             <a href="index.html">
-            <img
-                class="picLogo"
-                src="Music_LingLogo_CA.png"
-              />
-               </a>
-          </li>
-          <li>
-            <div class="dropdown">
-              <button class="dropbtn">
-                <a href="Research.html">Research</a>
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a href="Research.html#Sociolinguistics">Sociolinguistics</a>
-                <a href="Research.html#Psycholinguistics"
-                  >Psycholinguistics</a
-                >
-                <a href="Research.html#Musicology">Musicology</a>
-                <a href="Research.html#History">History</a>
-              </div>
-            </div>
-          </li>
-          <li class="active">
-            <div class="dropdown">
-              <button class="dropbtn">
-                <a href="CV.html">Curriculum Vitae</a>
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a href="CV.html#Education">Education</a>
-                <a href="CV.html#Jobs">Jobs</a>
-                <a href="CV.html#Teaching">Teaching</a>
-                <a href="CV.html#Extra">Extracurricular Activities</a>
-                <a href="CV.html#Skills">Skills</a>
-                <a href="CV_Ahrens.pdf">CV as Pdf</a>
-              </div>
-            </div>
-          </li>
-          <li class="last">
-            <div class="dropdown">
-              <button class="dropbtn">
-                <a href="Publications.html">Publications & Presentations</a>
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a href="Publications.html#Papers">Paper</a>
-                <a href="Publications.html#Talks">Talks</a>
-                <a href="Publications.html#Poster">Poster</a>
-              </div>
-            </div>
-          </li>
-          <!--  <li>
-            <a href="./Talks_Poster.html">Talks and Poster</a>
-          </li>-->
-          <!--
-          <li class="last">
-            <a href="./GetInTouch.html">Get in Touch</a>
-          </li>
-          -->
-        </ul>
-      </nav>
-    </header>
-    <div class="page">
-      <p>PDF-version of my CV <a href="CV_Ahrens.pdf">here.</a> (last update: 13.03.2026)</p>
-      <h1 id="Education">Education</h1>
-      <!--<div class="grid">-->
-        <div class="flex-container_single">
-        <div class='grid3' id="Education3">
-          <div>
-            <h1>Doctor of Philosophy</h1>
-            <h2>Linguistics</h2>
-            <p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carina Ahrens - CV</title>
+
+  <link rel="preconnect" href="https://fonts.bunny.net" />
+  <link href="https://fonts.bunny.net/css?family=roboto:400" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="normalize.css"/>
+  <link rel="stylesheet" href="main2.css"/>
+</head>
+
+<body>
+
+<header>
+  <div class="container nav-container">
+
+    <a href="index.html" class="logo-link">
+      <img class="logo" src="Music_LingLogo_CA.png" alt="Logo" />
+    </a>
+
+    <button class="menu-toggle" id="menu-toggle">☰</button>
+
+    <nav>
+      <ul class="nav-list" id="nav-list">
+        <li><a href="Research.html" class="active">Research</a></li>
+        <li><a href="CV.html">Curriculum Vitae</a></li>
+        <li><a href="Publications.html">Publications & Presentations</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+
+<div class="page container">
+
+  <p>
+    PDF-version of my CV <a href="CV_Ahrens.pdf">here</a> (last update: 13.03.2026)
+  </p>
+
+  <!-- ===================== EDUCATION ===================== -->
+  <h1 id="Education">Education</h1>
+
+  <div class="cv-grid single-row">
+
+  <div class="cv-card full-width">
+      <h3>Doctor of Philosophy</h3>
+      <h4>Linguistics</h4>
+      <p>
               <strong>since September 2024</strong><br />
               <strong>Doctorate Degree:</strong> Linguistics<br />
               University of Oregon (U.S.)<br />
               Advisory Committee: Volya Kapatsinski, Rachel Weissler Powell, Kaori Idemaru
             </p>
-          </div>
-        </div>
-      </div>
-      <div class="flex-container">
-          <div class="flex-container_sideCV1">
-            <div class="grid1" id="Education1">
-            <h1>Master of Arts</h1>
-            <div>
-            <div>
-            <h2>Anglophone Studies & History</h2>
-            <p>
+    </div>
+
+  </div>
+
+
+  <div class="cv-grid two-column-row">
+
+  <div class="cv-card">
+      <h3>Master of Arts</h3>
+
+      <h4>Anglophone Studies & History</h4>
+      <p>
               <strong>since October 2022</strong><br />
               <strong>Double Master's Degree:</strong> Anglophone Studies:
               English Linguistics and History <br />
               University of Duisburg-Essen (Germany)
             </p>
-            <p>
+             <p>
               <strong>Master's thesis:</strong><br />
               The Sound of <i>me</i> in <i>my</i> Brain:
               <br />
               Acoustic Patterns of the First-Person Possessive <i>my</i> and
               First-Person Object <i>me</i> in Tyneside English
             </p>
-          </div>
-          <div>
-            <h2>VAMoS</h2>
-            <p>
+
+      <h4>VAMoS</h4>
+      <p>
               <strong>since April 2022</strong><br />
               <strong>Single Master's Degree:</strong> Verarbeitung, Analyse, und Modellierung natuerlicher Sprache: Computerlinguistik – Psycholinguistik – Theoretische Linguistik<br />
               (Processing, Analysing and
@@ -167,10 +93,9 @@
               <strong>Master's thesis:</strong><br />
               Harmony of Thinking: The Cognitive Intersection of Music and Language
             </p>
-          </div>
-          <div>
-            <h2>Musicology</h2>
-            <p>
+
+      <h4>Musicology</h4>
+      <p>
               <strong>since September 2019</strong><br />
               <strong>Single Master's Degree:</strong> Musicology and Cultural
               Studies<br />
@@ -180,17 +105,13 @@
               <strong>Master's thesis:</strong><br />
               Harmony of Thinking: The Cognitive Intersection of Music and Language
             </p>
-          </div>
-        </div>
-        </div>
-          </div>
-        <div class="flex-container_sideCV1">
-          <div class="grid1" id="Education2">
-          <h1>Bachelor of Arts</h1>
-          <div>
-            <div>
-            <h2>Anglophone Studies & History</h2>
-            <p>
+    </div>
+
+    <div class="cv-card">
+      <h3>Bachelor of Arts</h3>
+
+      <h4>Anglophone Studies & History</h4>
+      <p>
               <strong>Septembre 2018 - September 2022</strong><br />
               <strong>Double Bachelor's Degree:</strong> Anglophone Studies
               (English Linguistics) and History<br />
@@ -201,10 +122,9 @@
               Tracking Sociophonetic Variation in one Individual over the Lifespan: FOOT & STRUT, FACE
               and GOAT
             </p>
-          </div>
-          <div>
-            <h2>Musicology</h2>
-            <p>
+
+      <h4>Musicology</h4>
+      <p>
               <strong>October 2016 - February 2019</strong><br />
               <strong>Single Bachelor's Degree:</strong> Musicology (German &
               French) / Musicology Licence Franco-Allemande<br />
@@ -218,17 +138,20 @@
               (The technique of Leitmotives of Howard Shores film music
               <em>The Lord of the Rings</em>: The musical relation between Aragorn and Arwen)
             </p>
-          </div>
-          </div>
-          </div>
-        </div>
-      </div>
-      <h1 id="Jobs">Jobs</h1>
-      <div class="flex-container">
-        <div class="flex-container_sideCV1">
-          <div class="grid1" id="StudentsJobs">
-          <h1>Student Jobs</h1>
-            <div>
+    </div>
+
+  </div>
+
+
+  <!-- ===================== JOBS ===================== -->
+  <h1 id="Jobs">Jobs</h1>
+
+  <div class="cv-grid two-column-row">
+
+  <div class="cv-card">
+      <h3>Student Jobs</h3>
+
+      <div>
             <h3>Graduate Employment at University of Oregon</h3>
             <p>
               <strong>since September 2024</strong><br />
@@ -298,10 +221,11 @@
           </div>
           </div>
         </div>
-          <div class="flex-container_sideCV1">
-          <div class="grid1", id="Teaching">
-            <h1 id="Teaching">Teaching</h1>
-            <div>
+
+    <div class="cv-card">
+      <h3>Teaching</h3>
+
+      <div>
               <div>
             <h3>Graduate Employee at the University of Oregon</h3>
             <ul>
@@ -331,8 +255,7 @@
               </li>
             </ul>
           </div>
-              <div>
-            <h3>University - Undergraduate Level</h3>
+          <h3>University - Undergraduate Level</h3>
             <ul>
               <li>
                 <p>
@@ -413,12 +336,19 @@
           </div>
         </div>
       </div>
-      <h1 id="Extra">Extracurricular Activities</h1>
-      <div class="flex-container">
-        <div class="flex-container_sideCV1">
-          <div class="grid1", id="SummerSchools">
-          <h2>Summer Schools</h2>
-          <ul>
+    </div>
+
+  </div>
+
+
+  <!-- ===================== EXTRA ===================== -->
+  <h1 id="Extra">Extracurricular Activities</h1>
+
+  <div class="cv-grid">
+
+    <div class="cv-card">
+      <h3>Summer Schools</h3>
+      <ul>
              <li>
               <p>
                 <strong>Linguistic Society of America Summer Institute 2025</strong><br \ />
@@ -487,12 +417,11 @@
               </ul>-->
             </li>
           </ul>
-       </div>
-       </div>
-        <div class="flex-container_sideCV1">
-          <div class="grid1" id="Workshops">
-          <h2>Workshops</h2>
-          <ul>
+    </div>
+
+    <div class="cv-card">
+      <h3>Workshops</h3>
+      <ul>
             <li>
               <p>
                 <strong>Generalized Additive Mixed Models for Linguistic Data (Tutorial)</strong> <br />
@@ -537,12 +466,11 @@
               </p>
             </li>
           </ul>
-          </div>
-        </div>
-        <div class="flex-container_sideCV1">
-          <div class="grid1", id="internships">
-          <h2>Internships</h2>
-          <ul>
+    </div>
+
+    <div class="cv-card">
+      <h3>Internships</h3>
+      <ul>
             <li>
               <p>
                 <strong
@@ -569,88 +497,30 @@
               </p>
             </li>
           </ul>
-          </div>
-        </div>
-      </div>
-      <!--<h1 id="Committee Work">Commitee Work</h1>
-      <div class="grid">
-        <div>
-          <h2>Languages</h2>
-          <ul>
-            <li>German (L1)</li>
-            <li>English (L2 - fluent)</li>
-            <li>French (L2 - near fluent)</li>
-            <li>Italian (L2 - advanced)</li>
-          </ul>
-        </div>
-        <div>
-          <h2>Programms & Programming Languages</h2>
-          <ul>
-            <li>Elan</li>
-            <li>Praat</li>
-            <li>R & RStudio</li>
-            <li>Python (Basics)</li>
-          </ul>
-        </div>
-        <div>
-          <h2>Fun but Useless</h2>
-          <ul>
-            <li>Riding a Unicycle</li>
-            <li>Wiggling my Ears</li>
-          </ul>
-        </div>
-      </div>
-      <h1 id="Skills">Funding</h1>
-      <div class="grid">
-        <div>
-          <h2>Languages</h2>
-          <ul>
-            <li>German (mother tongue)</li>
-            <li>English (fluent spoken and written)</li>
-            <li>French (advanced)</li>
-            <li>Italian (advanced)</li>
-            <li>Latin (beginner)</li>
-          </ul>
-        </div>
-        <div>
-          <h2>Programms & Programming Languages</h2>
-          <ul>
-            <li>Cool Edit</li>
-            <li>Elan</li>
-            <li>Praat</li>
-            <li>R & RStudio</li>
-            <li>Python (basics)</li>
-            <li>Ms-Office</li>
-            <li>HTML & CSS (basics)</li>
-          </ul>
-        </div>
-        <div>
-          <h2>Fun but Useless</h2>
-          <ul>
-            <li>Riding a Unicycle</li>
-            <li>Wiggling my Ears</li>
-          </ul>
-        </div>
-      </div>-->
-        
-      <h1 id="Skills">Skills</h1>
-      <div class="flex-container">
-        <div class="flex-container_sideCV1">
-          <div class="grid1" id="Languages">
-          <h2>Languages</h2>
-          <ul>
+    </div>
+
+  </div>
+
+
+  <!-- ===================== SKILLS ===================== -->
+  <h1 id="Skills">Skills</h1>
+
+  <div class="cv-grid">
+
+    <div class="cv-card">
+      <h3>Languages</h3>
+      <ul>
             <li>German (mother tongue)</li>
             <li>English (fluent spoken and written, TOEFL: 103)</li>
             <li>French (advanced, DELF-DALF: B1)</li>
             <li>Italian (advanced)</li>
             <li>Latin (beginner)</li>
           </ul>
-        </div>
-        </div>
-        <div class="flex-container_sideCV1">
-          <div class="grid1" id ="Programs">
-          <h2>Programs & Programming Languages</h2>
-          <ul>
+    </div>
+
+    <div class="cv-card">
+      <h3>Tools</h3>
+      <ul>
             <li>Cool Edit</li>
             <li>ELAN</li>
             <li>Praat</li>
@@ -662,75 +532,34 @@
             <li>HTML, CSS & Java-Script (basics)</li>
             <!--<li>HTML, CSS, Java-Scripts (Basics)</li>-->
           </ul>
-          </div>
-        </div>
-        <div class="flex-container_sideCV1">
-          <div class="grid1" id ="Fun">
-          <h2>Fun but Useless</h2>
-          <ul>
+    </div>
+
+    <div class="cv-card">
+      <h3>Fun but Useless</h3>
+       <ul>
             <li>Riding a Unicycle</li>
             <li>Wiggling my Ears</li>
           </ul>
-        </div>
-      </div>
     </div>
-      </div>
-      <footer>
-      <div class="'footer">
-      <ul class="footer-list">
-        <li class="impressum-list"><p>(C) Carina Ahrens<br />
-          carina-ahrens[at]web.de</p>
-        </li>
-        <li>
-          <a href="https://scholar.google.de/citations?user=TQxh7FgAAAAJ&hl=de">
-            <img class="icon" src="GoogleScholar.png" alt=" Google Scholar." />
-          </a><br />
-          <p><br />
-            <br /></p>
-        </li>
-        <li>
-          <a href="https://www.researchgate.net/profile/Carina-Ahrens">
-            <img class="icon" src="ResearchGate.png" alt=" Research Gate." />
-          </a><br />
-          <p><br />
-            <br /></p>
-        </li>
-        <li>
-          <a href="https://uni-due.academia.edu/CarinaAhrens">
-            <img class="icon" src="Academia.edu.png" alt=" Academia.edu" />
-          </a><br />
-          <p><br />
-            <br /></p>
-        </li>
-        <li>
-          <a href="https://twitter.com/CarinaAhr_ns">
-            <img class="icon" src="Twitter.png" alt=" Twitter/X." />
-          </a><br />
-          <p><br />
-            <br /></p>
-          </li>
-        <li>
-          <a href="https://bsky.app/profile/carinaahrens.bsky.social">
-            <img class="icon" src="BlueSky.png" alt=" BlueSky." />
-          </a><br />
-          <p><br />
-            <br /></p>
-        </li>
-        <!--<li>
-          <p><br />
-            <br />
-          </p>
-          <a href="https://www.linkedin.com/in/carina-ahrens-6507041b1/">
-            <img class="icon" src="LinkedIn.png" alt="LinkedIn" />
-          </a><br />
-          <p><br />
-            <br /></p>
-        </li>-->
-      </ul>
-    </footer>
-  </body>
+
+  </div>
+
+</div>
+
+
+<footer>
+  <div class="footer-content">
+    <p>(C) Carina Ahrens</p>
+
+    <div class="social-icons">
+      <a href="https://scholar.google.de/citations?user=TQxh7FgAAAAJ&hl=de"><img src="GoogleScholar.png" alt="Scholar"/></a>
+      <a href="https://www.researchgate.net/profile/Carina-Ahrens"><img src="ResearchGate.png" alt="RG"/></a>
+      <a href="https://uni-due.academia.edu/CarinaAhrens"><img src = "Academia.edu.png"/></div>a>
+      <a href="https://twitter.com/CarinaAhr_ns"><img src="Twitter.png" alt="Twitter"/></a>
+      <a href="https://bsky.app/profile/carinaahrens.bsky.social"><img src="BlueSky.png" alt="BlueSky"/></a>
+    </div>
+  </div>
+</footer>
+
+</body>
 </html>
-
-
-
-
