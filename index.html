@@ -1,238 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Carina Ahrens</title>
-    <!--<link
-      rel="shortcut icon"
-      href="http://sstatic.net/stackoverflow/img/favicon.ico"
-    />
-    <link rel="icon" href="http://example.com/favicon.png" />-->
-    <link rel="preconnect" href="https://fonts.bunny.net" />
-    <link
-      href="https://fonts.bunny.net/css?family=roboto:400"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
-    />
-    <link rel="stylesheet" href="main.css" />
-    <!--<link rel="stylesheet" type="text/css" href="main.css" />-->
-    <!--<link rel="stylesheet" type="text/css" href="https://github.com/CarinaAhrens/home/blob/07bb3daf53351b1da058a4717367d641d8c52d9c/main.css" />-->
-    <!--<link rel="stylesheet" href="https://github.com/CarinaAhrens/home/blob/07bb3daf53351b1da058a4717367d641d8c52d9c/main.css" />-->
-    <!--<link rel=“stylesheet” type=“text/css” href=“main.css”>-->
-    <!--<script src="./main.js"></script>-->
-  </head>
-  <body>
-    <header>
-      <!--<link rel="icon" href="favicon.jpg" />-->
-      <link rel="icon" href="LogoCA1.png" />
-      <nav>
-        <ul class="nav-list">
-          <li class="picLogo">
-             <a href="index.html">
-            <img
-                class="picLogo"
-                src="Music_LingLogo_CA.png"
-              />
-               </a>
-          </li>
-          <!--<li class="active">
-            <a href="index.html">
-              <svg
-                width="56"
-                height="56"
-                viewBox="0 0 56 56"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-               
-              >
-                <g clip-path="url(#clip0_342_38)">
-                  <path
-                    d="M23.3334 46.6667V32.6667H32.6667V46.6667H44.3334V28H51.3334L28.0001 7L4.66675 28H11.6667V46.6667H23.3334Z"
-                    fill="white"
-                  />
-                </g>
-                <defs>
-                  <clipPath id="clip0_342_38">
-                    <rect width="56" height="56" fill="white" />
-                  </clipPath>
-                </defs>
-              </svg>
-            </a>
-          </li>-->
-          <!-- <li>
-            <a href="index.html">Home</a>
-          </li> -->
-          <li>
-            <div class="dropdown">
-              <button class="dropbtn">
-                <a href="Research.html">Research</a>
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a href="Research.html#Sociolinguistics">Sociolinguistics</a>
-                <a href="Research.html#Psycholinguistics"
-                  >Psycholinguistics</a
-                >
-                <a href="Research.html#Musicology">Musicology</a>
-                <a href="Research.html#History">History</a>
-              </div>
-            </div>
-          </li>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-          <li>
-            <div class="dropdown">
-              <button class="dropbtn">
-                <a href="CV.html">Curriculum Vitae</a>
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a href="CV.html#Education">Education</a>
-                <a href="CV.html#Jobs">Jobs</a>
-                <a href="CV.html#Teaching">Teaching</a>
-                <a href="CV.html#Extra">Extracurricular Activities</a>
-                <a href="CV.html#Skills">Skills</a>
-                <a href="CV_Ahrens.pdf">CV as Pdf</a>
-              </div>
-            </div>
-          </li>
-          <li class="last">
-            <div class="dropdown">
-              <button class="dropbtn">
-                <a href="Publications.html">Publications & Presentations</a>
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a href="Publications.html#Papers">Paper</a>
-                <a href="Publications.html#Talks">Talks</a>
-                <a href="Publications.html#Poster">Poster</a>
-              </div>
-            </div>
-          </li>
-          <!--<li class="last">
-            <a href="Publications.html">Publications & Presentations</a>
-          </li>-->
-          <!--  <li>
-            <a href="Talks_Poster.html">Talks and Poster</a>
-          </li>-->
-          <!--
-          <li class="last">
-            <a href="GetInTouch.html">Get in Touch</a>
-          </li>
-          -->
+  <title>Carina Ahrens</title>
+
+  <link rel="icon" href="LogoCA1.png" />
+
+  <link
+    href="https://fonts.bunny.net/css?family=roboto:300,400,500,700"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+
+  <!-- =========================
+       HEADER
+  ========================== -->
+
+  <header>
+    <div class="container nav-container">
+
+      <a href="index1.html" class="logo-link">
+        <img class="logo" src="Music_LingLogo_CA.png" alt="Logo" />
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle">
+        ☰
+      </button>
+
+      <nav>
+        <ul class="nav-list" id="nav-list">
+
+          <li><a href="Research.html">Research</a></li>
+
+          <li><a href="CV.html">Curriculum Vitae</a></li>
+
+          <li><a href="Publications.html">
+            Publications & Presentations
+          </a></li>
+
         </ul>
       </nav>
-    </header>
-    <div class="page">
-      <section>
-        <div class="flex-container">
-          <div class="flex-container_sideL">
-            <!--<h1>Carina Ahrens</h1>-->
-            <div>
-              <h1>Carina Ahrens</h1>
-              <h2>/ka‘ʁi:na ‘a:ʁəns/<br />
-              <i>(she/her)</i></h2>
-              <!--<h2>/ka‘ʁi:na ‘a:ʁəns/</h2>-->
-              <img
-                class="pic2"
-                src="Carina5.jpg"
-                alt="Carina standing in front of a fantastic view of the city center of Edinburgh."
-                src="FotoCarina.jpg"
-              />
-              <!--<img
-                class="pic2"
-                src="FotoCarina.jpg"
-                alt="Picture of Carina"
-                src="FotoCarina.jpg"
-              />-->
-              <p>
-                Here I am standing on Calton Hill enjoying the view on
-                the city center of Edinburgh.
-              </p>
-            </div>
-          </div>
-          <div class="flex-container_middle">
-            <div>
-              <h2>Welcome to my Academic Journey</h2>
-              <p align="justify">
-                I am a PhD student in the Linguistics Department at the University of Oregon where I work with Volya Kapatsinski, Rachel Weissler Powell and Kaori Idemaru.
-                My research interests are (socio)phonetics
-                as well as cognitive aspects of language. I am also interested
-                in how people's speech changes over their lifespan and how languages interact and interfere in a multilingual speaker's mind.
-              </p>
-              <!--<p align="justify">
-                For my master's thesis, I use panel data from Tyneside (Northeast
-                of England) to investigate how the first-person possessive <i>my</i> and
-                the first-person accusative object <i>me</i> are differentiated
-                acoustically. Previous research has shown that they both share
-                different variants of pronunciation [mi, mai, mei, ma] (Moelders under revision). If you
-                are interested in learning more, I invite you to visit my presentation
-                at the Sociolinguistic Symposium in 2024.
-              </p>
-              <p align="justify">
-                In psycholinguistics, I am currently working on a project to
-                explore language dominance in multilingual speakers' brains. I am
-                preparing a cognate test to see how multilingual speakers access words
-                that overlap in different languages. My current focus is on
-                French L1 speakers who also learned English and German. If you
-                want to learn more about this project, you can check out the
-                poster I presented at NWAV 51.
-              </p>-->
-              <p align="justify">
-                I hold two bachelor’s degrees - a bilingual degree (Licence
-                Franco-Allemande) in Musicology from Folkwang University of the
-                Arts in Essen (Germany) and the University François Rabelais in
-                Tours (France) and a two-subject degree in Anglophone Studies and
-                History from the University of Duisburg-Essen (Germany).</p>
-            </div>
-          </div>
-          <div class="flex-container_side">
-            <div>
-             <!-- <img
-                class="picLogo"
-                src="Music_LingLogo_CA.png"
-                alt="Logo"
-              />-->
-              <h1>News & Events</h1>
-        
-              <h2>Upcoming Presentations:</h2>
-              <ul>
-                <!--<li>
-                  <p>
-                    <strong>HISPhonCog 2026:</strong><br />
-                    22nd May - 23rd May 2026, Seoul (South Korea)<br />
-                    <strong>Ahrens, C.: </strong><i>Vowel Variation Over T[ai]m: Comparing the First Person Possessive and the PRICE Vowel in Tyneside Englishi</i><br />
-                  </p>
-                </li>-->
-                <li>
+
+    </div>
+  </header>
+
+
+  <!-- =========================
+       MAIN CONTENT
+  ========================== -->
+
+  <main class="container main-layout">
+
+    <!-- LEFT COLUMN -->
+
+    <aside class="profile-card">
+
+      <h1>Carina Ahrens</h1>
+
+      <h2>
+        /ka‘ʁi:na ‘a:ʁəns/<br>
+        <span>(she/her)</span>
+      </h2>
+
+      <img
+        class="profile-image"
+        src="Carina5.jpg"
+        alt="Carina standing in front of Edinburgh"
+      />
+
+      <p>
+        Here I am standing on Calton Hill enjoying the
+        view of Edinburgh city center.
+      </p>
+
+    </aside>
+
+
+    <!-- MIDDLE COLUMN -->
+
+    <section class="content-card">
+
+      <h2>Welcome to my Academic Journey</h2>
+
+      <p> I am a PhD student in the Linguistics Department at the University of Oregon where I work with Volya Kapatsinski, Rachel Weissler Powell and Kaori Idemaru.</p>
+      <p>My research interests are (socio)phonetics as well as cognitive aspects of language. I am also interested in how people's speech changes over their lifespan and how languages interact and interfere in a multilingual speaker's mind.</p>
+      <p>I hold two bachelor’s degrees - a bilingual degree (Licence Franco-Allemande) in Musicology from Folkwang University of the Arts in Essen (Germany) and the University François Rabelais in Tours (France) and a two-subject degree in Anglophone Studies and History from the University of Duisburg-Essen (Germany).</p>
+
+    </section>
+
+
+    <!-- RIGHT COLUMN -->
+
+    <aside class="sidebar-card">
+
+      <h2>News & Events</h2>
+
+      <div class="sidebar-section">
+
+        <h3>Upcoming Presentations</h3>
+
+        <ul>
+          <li>
                   <p>
                     <strong>ICLaVE 13:</strong><br />
                     29th June - 2nd July 2026, Lausanne (Switzerland)<br />
                     <strong>Ahrens, C.: </strong><i>The Sp[i]ch of T[ai]ns[ai]d English: Can history explain the variation in the realization of the first person possessive my and the first person object me?</i><br />
                   </p>
                 </li>
-                <li>
+
+          <li>
                   <p>
                     <strong>NEW 11:</strong><br />
                     9th September - 10th September 2026, York (England)<br />
                     <strong>Ahrens, C.: </strong><i>History is PRICEless: A Corpus Approach for the Investigation of Modern Variation</i><br />
                   </p>
                 </li>
-                  <!--<li>
-                  <p>
-                    <strong>189th Meeting - ASA:</strong><br />
-                    1st - 5th December 2025, Honolulu, Hawaii (U.S.)<br />
-                    Clement, N., <strong>Ahrens, C.: </strong>, Idemaru, K., Kapatsinski, V.<i>Effects of Prior Cue Strength in Perceptual Adaptation to Acoustic Dimension Reweighting</i><br />
-                  </p>
-                </li>-->
-              </ul>
-              </ul>
-              <h2>Current Research Projects:</h2>
-              <ul>
+        </ul>
+
+      </div>
+
+
+      <div class="sidebar-section">
+
+        <h3>Current Research Projects</h3>
+
+        <ul>
                 <li>
                   <p>
                     <strong>Independent Project with <a href="https://www.jamesgrama.com/"><i>James Grama</i></strong></a>:
@@ -259,80 +157,81 @@
                     Investigating whether and how visually perceived stereotypes influence language perception/production of L1 French speakers living in Germany (producing/perceiving English)
                   </p>
                 </li>
-                
-                <!--<li><p>XXXXXXXXXX XXXXXXX XXXXXX XXXXXX XXXXX</p></li>
-                <li><p>XXXXXXXXXX XXXXXXX XXXXXX XXXXXX XXXXX</p></li>
-                <li><p>XXXXXXXXXX XXXXXXX XXXXXX XXXXXX XXXXX</p></li>
-                <li><p>XXXXXXXXXX XXXXXXX XXXXXX XXXXXX XXXXX</p></li> -->
               </ul>
 
-              <h2>Contact me here:</h2>
-              <ul>
-                <!--<li>Email: carina.ahrens[at]uni-due.de</li>-->
-                <li>Email: cahrens[at]uoregon.edu</li>
-                <li>Email: carina-ahrens[at]web.de</li>                
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
+
+
+      <div class="sidebar-section">
+
+        <h3>Contact me here</h3>
+
+        <ul>
+          <li>cahrens[at]uoregon.edu</li>
+          <li>carina-ahrens[at]web.de</li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+  </main>
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer>
+
+    <div class="container footer-content">
+
+      <div>
+        <p>
+          © Carina Ahrens<br>
+          carina-ahrens[at]web.de
+        </p>
+      </div>
+
+      <div class="social-icons">
+
+        <a href="https://scholar.google.de/citations?user=TQxh7FgAAAAJ&hl=de">
+          <img src="GoogleScholar.png" alt="Google Scholar">
+        </a>
+
+        <a href="https://www.researchgate.net/profile/Carina-Ahrens">
+          <img src="ResearchGate.png" alt="ResearchGate">
+        </a>
+
+        <a href="https://uni-due.academia.edu/CarinaAhrens">
+          <img src="Academia.edu.png" alt="Academia.edu">
+        </a>
+
+        <a href="https://bsky.app/profile/carinaahrens.bsky.social">
+          <img src="BlueSky.png" alt="Bluesky">
+        </a>
+
+      </div>
+
     </div>
-    <footer>
-      <div class="'footer">
-      <ul class="footer-list">
-        <li class="impressum-list"><p>(C) Carina Ahrens<br />
-          carina-ahrens[at]web.de</p>
-        </li>
-        <li>
-          <a href="https://scholar.google.de/citations?user=TQxh7FgAAAAJ&hl=de">
-            <img class="icon" src="GoogleScholar.png" alt=" Google Scholar." />
-          </a><br />
-          <p><br />
-            <br /></p>
-        </li>
-        <li>
-          <a href="https://www.researchgate.net/profile/Carina-Ahrens">
-            <img class="icon" src="ResearchGate.png" alt=" Research Gate." />
-          </a><br />
-          <p><br />
-            <br /></p>
-        </li>
-        <li>
-          <a href="https://uni-due.academia.edu/CarinaAhrens">
-            <img class="icon" src="Academia.edu.png" alt=" Academia.edu" />
-          </a><br />
-          <p><br />
-            <br /></p>
-        </li>
-        <li>
-          <a href="https://twitter.com/CarinaAhr_ns">
-            <img class="icon" src="Twitter.png" alt=" Twitter/X." />
-          </a><br />
-          <p><br />
-            <br /></p>
-          </li>
-        <li>
-          <a href="https://bsky.app/profile/carinaahrens.bsky.social">
-            <img class="icon" src="BlueSky.png" alt=" BlueSky." />
-          </a><br />
-          <p><br />
-            <br /></p>
-        </li>
-        <!--<li>
-          <p><br />
-            <br />
-          </p>
-          <a href="https://www.linkedin.com/in/carina-ahrens-6507041b1/">
-            <img class="icon" src="LinkedIn.png" alt="LinkedIn" />
-          </a><br />
-          <p><br />
-            <br /></p>
-        </li>-->
-      </ul>
-    </footer>
-  </body>
+
+  </footer>
+
+
+  <!-- =========================
+       MOBILE MENU SCRIPT
+  ========================== -->
+
+  <script>
+
+    const menuToggle = document.getElementById('menu-toggle');
+    const navList = document.getElementById('nav-list');
+
+    menuToggle.addEventListener('click', () => {
+      navList.classList.toggle('show');
+    });
+
+  </script>
+
+</body>
 </html>
-
-
-
-
