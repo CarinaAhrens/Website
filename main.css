@@ -364,10 +364,6 @@ footer {
   }
 }
 
-body {
-  outline: 5px solid red;
-}
-
 /* ==========================================
    LINKS
 ========================================== */
@@ -410,13 +406,6 @@ a:hover {
 /* ==========================================
    PUBLICATIONS PAGE
 ========================================== */
-
-/*body {
-  background-image: url('Presentations_Background.png');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-}*/
 /* publications page background */
 
 .publications-page {
