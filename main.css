@@ -369,6 +369,19 @@ body {
 }
 
 /* ==========================================
+   LINKS
+========================================== */
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* ==========================================
    CV SPECIAL LAYOUTS
 ========================================== */
 
@@ -398,7 +411,15 @@ body {
    PUBLICATIONS PAGE
 ========================================== */
 
-body {
+/*body {
+  background-image: url('Presentations_Background.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}*/
+/* publications page background */
+
+.publications-page {
   background-image: url('Presentations_Background.png');
   background-size: cover;
   background-attachment: fixed;
@@ -453,4 +474,15 @@ body {
   .pub-grid-2 {
     grid-template-columns: 1fr;
   }
+}
+
+/* publication links */
+
+.pub-card a {
+  color: white;
+  text-decoration: underline;
+}
+
+.pub-card a:hover {
+  opacity: 0.8;
 }
