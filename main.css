@@ -57,6 +57,19 @@ header {
   height: 55px;
 }
 
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.page-title {
+  flex: 1;
+  text-align: center;
+  color: white;
+  margin: 0;
+  line-height: 1;
+}
+
 /* ==========================================
    NAVIGATION
 ========================================== */
