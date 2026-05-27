@@ -113,6 +113,14 @@ header {
   align-items: start;
 }
 
+.research-page {
+  padding-top: 30px;
+}
+
+.publications-page {
+  padding-top: 30px;
+}
+
 /* ==========================================
    CARDS
 ========================================== */
