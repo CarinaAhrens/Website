@@ -428,7 +428,7 @@ li p {
   margin: 0;
 }
 ul {
-  margin-bottom: 4rem; /* space after the whole list */
+  padding-bottom: 4rem;
 }
 
 
