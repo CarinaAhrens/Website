@@ -420,12 +420,8 @@ a:hover {
 
 }
 
-ul {
-  padding-left: 1.5rem; /* optional */
-}
-
 li {
-  margin-bottom: 0.25rem; /* adjust as needed */
+  margin-bottom: 0rem; /* adjust as needed */
 }
 
 li p {
