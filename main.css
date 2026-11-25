@@ -530,3 +530,100 @@ ul {
   gap: 15px;
   flex-wrap: wrap;
 }
+
+
+/* ==========================================
+   COMBINED INTRODUCTION CARD
+========================================== */
+
+.main-layout {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 25px;
+  padding: 40px 0;
+  align-items: start;
+}
+
+/* Combined purple card */
+
+.intro-card {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  background: #581845;
+  color: white;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+  align-items: start;
+}
+
+/* Profile section */
+
+.profile-section {
+  text-align: center;
+}
+
+.profile-section h1 {
+  font-size: clamp(2rem, 3vw, 3rem);
+  margin-bottom: 10px;
+}
+
+.profile-section h2 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.profile-section span {
+  font-style: italic;
+}
+
+/* Profile picture */
+
+.profile-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 14px;
+  margin: 20px auto;
+}
+
+/* Introduction text */
+
+.intro-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 18px;
+}
+
+.intro-text p {
+  margin-bottom: 18px;
+  line-height: 1.7;
+}
+
+/* Responsive layout */
+
+@media (max-width: 1100px) {
+
+  .main-layout {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .intro-card {
+    grid-template-columns: 1fr;
+    padding: 22px;
+    gap: 15px;
+  }
+
+  .profile-image {
+    max-width: 250px;
+  }
+
+  .intro-text h2 {
+    font-size: 1.5rem;
+  }
+
+}
